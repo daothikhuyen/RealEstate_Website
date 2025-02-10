@@ -1,0 +1,443 @@
+
+:root{
+    --primary-color: #ff5d26;
+    --second-color: #ffff;
+    --hover-color: rgb(162, 160, 160,0.25);
+    --siderbar-width: 300px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ body{
+    /* font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; */
+}
+
+/*
+body::-webkit-scrollbar{
+    display: none;
+} */
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul , li {
+    list-style: none;
+}
+
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(119, 119, 119,0.5);
+    text-align: center;
+}
+
+/* body .view_home .advertise .advertisement{
+    height: 100vh;
+    overflow: hidden;
+
+} */
+
+/* Thanh tìm kiếm */
+
+.header_search{
+    align-items: center;
+}
+
+.header_search div .search_item{
+    width: 100%;
+    height: 35px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f3f3f3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border-radius: 3px;
+}
+
+.header_search span.icon_default i {
+    position: absolute;
+    top: 6px;
+    bottom: 0;
+    left: 8px;
+    color: #777;
+    font-weight: 200;
+}
+
+.header_search span:nth-child(2){
+    width: 100%;
+    padding-left:20px;
+    display: flex;
+    align-items: center;
+}
+
+.header_search span:nth-child(2) select{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header_search .form-select:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.header_search div:nth-child(1) .search_item{
+    height: 35px;
+    padding: 5px 0;
+    font-weight: 500;
+    font-size: 90%;
+}
+
+/* Search frame */
+
+/* Search by price */
+
+.view_home .main_home .search-acreage,
+.view_home .main_home .search-price{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+}
+
+.view_home .main_home .list-group-search .list-group-item a{
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+
+/* Post */
+.avatar_name .avatar .image_avatar_post{
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(128, 128, 128,0.25);
+    border-radius: 100rem;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.main_home .post {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+/* header post */
+.info_post .header .title{
+    color: #363636;
+}
+
+.info_post .info_price_arceage .price{
+    font-size: 15px;
+    color: #c90927;
+    font-weight: 600;
+}
+
+.info_post .info_price_arceage .arceage{
+    font-size: 14px;
+    color: #4b4b4b;
+    font-weight: 600;
+}
+
+.info_post .address{
+    font-size: 14px;
+    color: #777;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.info_post .title{
+    font-size: 15px;
+   font-weight: 600;
+}
+
+.info_post .description .content{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.action-text{
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+.info_post .description .btn-action button{
+    background-color: #fff;
+    color: #ea4e27;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* image slide */
+.swiper {
+    width: 100%;
+    /* max-height: 300px;
+    overflow: hidden; */
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+
+}
+
+.swiper-slide{
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75,0.09);
+    overflow: hidden;
+}
+
+.swiper-slide video,
+.swiper-slide img {
+  /* width: 100%; */
+  max-width: 100%;
+  height: 355px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+
+}
+
+/* Comment */
+.comment_rating .number_like_comment{
+    font-size: 14px;
+    color: #777;
+    font-weight: 450;
+}
+
+.content_comment{
+    height: auto;
+    max-height: 270px;
+    overflow: auto;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(205, 205, 205);
+    border-radius: 5px;
+}
+
+.comment_like .comment,
+.comment_like .like {
+    padding: 4px 0;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.comment_like .comment:hover,
+.comment_like .like:hover{
+    background-color: rgb(119, 119, 119,0.05);
+}
+
+.content_comment .show_feedback .content_feedback{
+    margin: 10px 0;
+}
+
+.content_comment .show_feedback .avatar_name .avatar .image_avatar_feedback{
+    height: 30px;
+    width: 30px;
+    border-radius: 100rem;
+    object-fit: cover;
+}
+
+.content_comment .NameAndFeedback  .name{
+    font-size: 13px;
+}
+
+.content_comment .TimeAndReply .created_time {
+    font-size: 11px;
+    color: rgb(75, 75, 75,0.75)
+}
+
+.content_comment .TimeAndReply .reply{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* write comment */
+.writeComment {
+    border-top:1px solid rgb(119, 119, 119,0.05);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px -10px 10px;
+    border-top-style:solid ;
+    padding-top: 10px;
+}
+
+.writeComment .user_writeComment .avatar_comment .avatar{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.writeComment .content_writeComment{
+    width: 100%;
+    height: auto;
+    max-height: 70px;
+    overflow-y: auto;
+}
+
+.writeComment .content_writeComment .fromSubmitComment{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    background-color: rgb(119, 119, 119,0.20);
+    padding: 8px 5px 8px 20px;
+    border-radius: 20px;
+
+}
+
+.writeComment .content_writeComment input[type="text"]{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.writeComment .content_writeComment input[type="text"]:focus{
+    border: none;
+    outline: none;
+}
+
+.writeComment .content_writeComment .btn_send{
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.writeComment .content_writeComment .btn_send:hover {
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(54, 54, 54,0.10);
+}
+
+/* css cho quảng cáo */
+.view_home .advertise{
+    max-height: 100vh;
+    overflow: hidden;
+    position: static;
+}
+
+/* viewPost Title */
+.ViewPost{
+    margin-top: 50px;
+    padding: 0;
+    padding: 0 5rem;
+}
+
+.ViewPost .viewPostItems{
+    border: 1px solid #DCDCDC;
+    border-top-right-radius: 1rem ;
+    border-top-left-radius: 1rem ;
+}
+
+.ViewPost .title_main{
+    background-color:#ff5d26;
+    padding: 6px 3px ;
+    border-top-right-radius: 1rem ;
+    border-top-left-radius: 1rem ;
+}
+
+.ViewPost span{
+    font-size: 15px;
+}
+
+.ViewPost .title{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.carousel__icon {
+    width: var(--vc-icn-width);
+    height: var(--vc-icn-width);
+    fill: currentColor;
+    background-color: aliceblue;
+}
+
+@media only screen and (min-width: 992px) {
+    .swiper-slide{
+        width: 400px;
+        height: 355px;
+        overflow: hidden;
+    }
+
+    .swiper-slide img,
+    .swiper-slide video {
+        width: 100%;
+        max-width: 100%;
+        height: 355px;
+        object-position: center;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 477px) {
+    .info_post .title {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .info_post .address{
+        font-size: 13px;
+    }
+
+    .swiper-slide img,
+    .swiper-slide video {
+        width: 100%;
+        max-width: 100%;
+        height: 355px;
+        object-position: center;
+        object-fit: contain;
+    }
+}
+
+
+

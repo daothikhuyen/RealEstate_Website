@@ -1,0 +1,156 @@
+:root{
+    --primary-color: #ff5d26
+}
+
+.SignComponent{
+    position: relative;
+}
+
+.from_sign,
+.from_login{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+}
+
+.from_sign.sign,
+.from_login.login{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 30px 100px;
+    background-color: #fff;
+}
+
+.from_sign .form-group .btn-login,
+.from_login .form-group .btn-login{
+    background-color: var(--primary-color);
+    color: #ffff;
+    font-size: 15px;
+}
+
+.from_sign .form-group.footer_form a,
+.from_login .form-group.footer_form a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.form-group a:hover{
+    color: #ff5d26;
+}
+
+.view_home .contact_us{
+    border: 5px solid rgb(255, 93, 38,0.2);
+    padding: 16px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.view_home .btn_contact{
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+.view_home .btn_contact:hover{
+    background-color: #af3810 ;
+}
+
+.alter {
+    transition: all .3s ease-in-out;
+}
+
+.success {
+    background-color: #e5ffe7;
+     width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    padding: 10px 20px;
+    font-weight: 490;
+    transition: all .3s ease-in;
+    display: flex;
+    align-items: center;
+}
+
+.error{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: .875em;
+    padding: 10px 20px;
+    background-color: #ffe5ea;
+    font-weight: 490;
+    transition: all .3s ease-in;
+    display: flex;
+    align-items: center;
+}
+
+    /* trang loading */
+.hide {
+    display: none;
+}
+
+.loading{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page_loading{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_loading > div {
+    margin: auto;
+}
+
+.page_loading div > div:nth-child(1){
+    height: 50px;
+    width: 50px;
+    border: 8px solid #45474b;
+    border-top-color: #ffff ;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+}
+
+.page_loading div > div:nth-child(2){
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .row>* {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .account_setup{
+        padding-right: 80px;
+    }
+
+    form .form-group div:nth-child(3) .btnSetUp{
+        margin-top: 20px;
+    }
+
+    .from_sign,
+    .from_login{
+        border-radius:0px ;
+    }
+}
