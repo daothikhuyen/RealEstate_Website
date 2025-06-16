@@ -1,6 +1,6 @@
 ## User Interface
 
-- Dùng vuejs: Xây dựng giao diện giao tiếp với backend qua API
+- Using vuejs: Building an interface to communicate with the backend via API
 
 ![Ảnh chụp màn hình 2025-06-07 221644](https://github.com/user-attachments/assets/6392fde6-bb57-45c7-ae01-62272be700ba)
 
