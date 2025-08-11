@@ -11,7 +11,7 @@ Search by price and area
 
 - Using vuejs: Building an interface to communicate with the backend via API
 
-<img src="https://github.com/user-attachments/assets/6392fde6-bb57-45c7-ae01-62272be700ba" width="500"/> <img src="https://github.com/user-attachments/assets/013c267d-d465-43b1-861a-1b55eb480da0" width="500"/> <img src="https://github.com/user-attachments/assets/1a2cd22c-9d1c-4546-b560-a9768c6be5a8" width="500"/>  <img src="https://github.com/user-attachments/assets/150063a2-86b5-415e-879d-66824410778f" width="500"/>  <img src="https://github.com/user-attachments/assets/a8cbff1e-f107-454e-ba0f-e53ca1f7f71a" width="500"/>  <img src="https://github.com/user-attachments/assets/d4599466-e481-4740-a04c-82419b8e3d7f" width="500"/>   <img src="https://github.com/user-attachments/assets/9ca8f0f7-c5e1-4bee-9bfa-bec81d6917f7" width="500"/> 
+<img src="https://github.com/user-attachments/assets/6392fde6-bb57-45c7-ae01-62272be700ba" width="300"/> <img src="https://github.com/user-attachments/assets/013c267d-d465-43b1-861a-1b55eb480da0" width="300"/> <img src="https://github.com/user-attachments/assets/1a2cd22c-9d1c-4546-b560-a9768c6be5a8" width="300"/>  <img src="https://github.com/user-attachments/assets/150063a2-86b5-415e-879d-66824410778f" width="300"/>  <img src="https://github.com/user-attachments/assets/a8cbff1e-f107-454e-ba0f-e53ca1f7f71a" width="300"/>  <img src="https://github.com/user-attachments/assets/d4599466-e481-4740-a04c-82419b8e3d7f" width="300"/>   <img src="https://github.com/user-attachments/assets/9ca8f0f7-c5e1-4bee-9bfa-bec81d6917f7" width="300"/> 
 
 ## Technologies Used
 - IntelliJ IDEA
